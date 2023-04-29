@@ -1,0 +1,202 @@
+.body{
+    background-color: #d5d4fa;
+}
+
+#Seccion-One{
+    display: flex;
+    padding: 10%;
+}
+
+.container{
+    background: linear-gradient(#8e04ff , #d5d4fa);
+    height: 34vh;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+}
+
+@media screen and (max-width:700px){
+    .container{
+        background: linear-gradient(#eb0505 , #ffffff);
+    }
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #230438;
+}
+
+#SECCION_BOTON{
+    display: block;
+}
+
+.Titulo-contenedor{
+    color: #f8f8f8;
+}
+
+#Container-TEXTO_BIENVENIDA{
+    background:linear-gradient(#5b00a5 , #ffffff);
+    display: block;
+    width: 50%;
+    height:80vh;
+    border-radius:4%;
+    box-shadow: 5px 5px 10px #383838;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:600px){
+    #Container-TEXTO_BIENVENIDA{
+        height: 80vh;
+        width: 80%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-height:500px){
+    #Container-TEXTO_BIENVENIDA{
+        height: 130vh;
+        width: 80%;
+        margin-top: 5%;
+    }
+    
+}
+
+#Contenedor_Padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#INGRESO_DINERO{
+    background:linear-gradient(#8e04ff , #ebe2e2);
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px #383838;
+    margin: 0% 0% 5% 0%;
+}
+
+@media screen and (max-width:900px){
+    #INGRESO_DINERO{
+        width: 80%;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height:600px){
+    #INGRESO_DINERO{
+        width: 80%;
+        height: 70vh;
+    }
+}
+
+#MUESTRA{
+    font-size: 100%;
+    font-weight: 700;
+    color: #008000;
+    text-align: center;
+}
+
+#INGRESO{
+    display: block;
+}
+
+#container-especifico-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MuestraDinero{
+    color: #008000;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 800;
+    
+}
+
+#Contenedor-Padre-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0% 0% 0%;
+}
+
+#Contenedor_Boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Contenedor-Padre-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Devolucion_A_Usuario{
+    background:linear-gradient(#8e04ff , #ebe2e2);
+    width: 50%;
+    height: 80vh;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px #383838;
+    margin: 0% 0% 2% 0%;
+}
+
+@media screen and (max-width:800px){
+    #Devolucion_A_Usuario{
+        height: 120vh;
+        width: 80%;
+    }
+}
+
+@media screen and (max-height:412px){
+    #Devolucion_A_Usuario{
+        height: 143vh;
+        width: 80%;
+    }
+    
+}
+
+#Contenedor-Radio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#OTRO_CONTENEDOR{
+    display: block;
+}
+
+#LABEL{
+    font-size: 99%;
+    color: #f8f8f8;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px #383838;
+}
+
+#LABEL-1{
+    font-size: 99%;
+    color: #f8f8f8;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px #383838;
+}
+
+#RESPUESTA_A_COMENTARIO{
+    font-size: 6vh;
+    font-weight: 700;
+    color: #0faa0f;
+    text-align: center;
+}
+
+#RESPUESTA_NEGATIVA{
+    color: #eb0505;
+}

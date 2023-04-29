@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>Tarjeta de Bienvenida</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--se va a colocar una animacion de css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body class="body">
+    <script src="script.js"></script>
+
+    <!--<div class="container">
+        <div class="container-texto">
+            <h1>Sumar dos números</h1>  
+            <p>Por favor, introduce dos números:</p> 
+        </div> 
+        <div class="container-Numeros">
+            <input id="num1">
+            <br>  
+            <input id="num2">  
+            <button class="btn btn-primary" type="button" onclick="myFunction()">Sumar</button>  
+            <p id="sumando"></p>
+        </div>  
+    </div> -->
+
+    <h1 class="display-5 text-warning" style="text-align:center; text-shadow:0px 0px 10px #0e0b00">Ejercicio con JavaScript</h1>
+
+    <section>
+        <div id="Contenedor_Padre">
+            <div id="Container-TEXTO_BIENVENIDA">
+                <div id="Contenedor-Texto-1">
+                    <h1 class="display-5" style="color: #f8f8f8;">Hola!</h1>
+                    <h5 style="text-align: center;" class="text-light">Necesitamos que ingrese su nombre y apellido:</h5>
+                </div>
+                <div id="INGRESO">
+                    <input type="text" name="" id="Ingreso-Nombre" class="form-control" placeholder="nombre">
+                    <br>
+                    <input type="text" name="" id="Ingreso-Apellido" class="form-control" placeholder="apellido">
+                    <br>
+                    <input type="email" id="CORREO_ELECTRONICO" class="form-control" placeholder="correo electronico">
+                    <br>
+                    <div id="Contenedor_Boton">
+                        <button class="btn btn-primary" type="button" onclick="DEVOLVERNOMBRE()">Enviar Datos</button>
+                    </div>
+    
+                    <!--esta p es para que se mueste el resultado por pantalla-->
+                    <p id="MUESTRA"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contenedor-Padre-2">
+            <div id="INGRESO_DINERO">
+                <div id="Dinero-Efectivo">
+                   <div class="container-especifico">
+                    <h1 class="Titulo-contenedor">Ahora por favor ingresa un monto estipulado</h1>
+                   </div>
+    
+                   <div class="container-especifico-2">
+                    <input type="number" name="" id="Ingreso_efectivo" class="form-control">
+                    <div class="text-help text-secondary">todo esto para pagarle a Santi Maratea
+                    </div>
+                    <br>
+                    <div id="Contenedor_Boton">
+                        <button class="btn btn-primary" type="button" onclick="Ingresar_Dinero()">Ingresar el dinero:</button>
+                    </div>
+                    <!--como odio a los chetos-->
+                    <p id="MuestraDinero" class="animate__animated animate__bounce"></p>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Contenedor-Padre-3">
+            <div id="Devolucion_A_Usuario">
+                <div id="Contenedor_Hijo">
+                    <div>
+                        <h1 class="display-5 text-light" id="TITULO_CONTENEDOR_3">Que te parecio nuestro cuestionario</h1> 
+                    </div>
+                    <div id="Contenedor-Radio">
+                        <div id="OTRO_CONTENEDOR">
+                            <h3 style="color: #f8f8f8; font-size:100%; text-align:center;">Escribalo a continuacion entre un valor de 1 al 4</h3>
+                            <ul>
+                                <li>1 : Muy Buena </li>
+                                <li>2: Buena </li>
+                                <li>3: Regular</li>
+                                <li>4: Mala</li>
+                                <li>5: Mediocre</li>
+                            </ul>
+                            <div>
+                                <input type="number" name="" id="Comentario_Usuario" class="form-control">
+                                <button type="button" class="btn btn-warning text-light" onclick='DevolerDevolucion()'>Enviar Comentario</button>
+                                <p id="RESPUESTA_A_COMENTARIO" class="display-5"></p>
+
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <h3 class="text-success" style="text-align: center;">Muchas gracias por utilizar la pagina!</h3>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
